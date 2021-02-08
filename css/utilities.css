@@ -57,6 +57,14 @@
   height: 100%;
 }
 
+.staff .flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .flex-items > div {
   padding: 20px;
   flex: 1;
@@ -96,7 +104,7 @@
 }
 
 /* Flex columns */
-.flex-column.flex-reverse .row {
+.flex-columns.flex-reverse .row {
   flex-direction: row-reverse;
 }
 
